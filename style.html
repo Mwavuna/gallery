@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=
+    ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gallery</title>
+    <style type="text/css" media="all">
+        *
+        .main{
+          font-size: 2em;
+          height: 100vh;
+          background: gold;
+          margin: auto;
+          text-align: center;
+        }
+        
+        .top_bar{
+            text-align: center;
+            
+        }
+        
+        .horizontal{
+            background-image:linear-gradient(green,blue) ;
+            display: flex;
+            overflow-x: scroll;
+            width: 95vw;
+            height:40vh;
+            max-height: 40vh;
+            overflow-y: scroll;
+            
+        }
+        
+        .horizontal div{
+            
+            margin: 20px;
+            height:98%;
+            display: inline-block;
+   
+            
+        }
+        
+        
+        
+        .horizontal div img{
+            height: 98%;
+        }
+        
+        .vertical_container{
+            background-image:linear-gradient(green,blue) ;
+            display: flex;
+            width: 100vw;
+            height:40vh;
+            max-height: 40vh;
+            overflow-y: scroll;
+            
+            
+        }
+        
+        .vertical_container div{
+            width: 98%;
+        }
+        
+        .vertical_container div img{
+            width: 100%;
+        }
+        
+        
+        .footer{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="top_bar">
+            <h1>MY GALLERY</h1>
+        </div>
+        
+        <div class="horizontal">
+            <div class="1">
+                <div class="vertical_container">
+                    <div class="hor1">
+                        <img src="photo1.jpg" alt="">
+                    </div>
+                    <div class="hor2">
+                       <img src="photo3.jpg" alt="">
+                    </div>
+                    
+                </div>
+                
+             
+            </div>
+            <div class="2">
+                <img src="moneycar1.jpg" alt="">
+            </div>
+            <div class="3">
+                <img src="photo2.jpg" alt="">
+            </div>
+            <div class="4">
+                <img src="moneycar2.jpg" alt="">
+            </div>
+            <div class="1">
+                <img src="photo1.jpg" alt="">
+            </div>
+            <div class="2">
+                <img src="moneycar1.jpg" alt="">
+            </div>
+            <div class="3">
+                <img src="photo2.jpg" alt="">
+            </div>
+            <div class="4">
+                <img src="moneycar2.jpg" alt="">
+            </div>
+            
+            
+            
+        </div>
+        
+        <div class="footer">
+            
+            <h3>
+                <a href="https://wa.me//+254708612010">
+                    @Code king
+                </a>
+            </h3>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
